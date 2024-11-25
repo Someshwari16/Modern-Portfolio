@@ -3,34 +3,30 @@ import { motion } from 'framer-motion';
 import { Rocket, ExternalLink } from 'lucide-react';
 
 
-import SmartMoringaImage from './images/smart-moringa.png';
-import PlanexploreImage from './images/planexplore.png';
-import AutonomousDroneImage from './images/autonomous-drone.png';
-import AmazonListingImage from './images/amazon-listing.png';
 
 const projects = [
   {
     title: 'Smart Moringa Cultivation',
     description: 'IoT-based intelligent system for moringa cultivation with real-time monitoring and automated care instructions.',
-    image: SmartMoringaImage, 
+   image: 'https://iswaryacrackers.in/wp-content/uploads/2024/11/Smart-Moringa-1-300x300.jpg', 
     link: 'https://docs.google.com/presentation/d/1DgHDI9mfbn8b59vSlAWx49EqAjr-tIH4/edit?usp=sharing&ouid=116780384250069847335&rtpof=true&sd=true',
   },
   {
     title: 'Planexplore',
     description: 'Digital platform connecting tourists with local guides, enhancing travel experiences through personalized itineraries.',
-    image: PlanexploreImage, 
-    link: 'https://docs.google.com/presentation/d/1PoQNLbEvLrbFo7Am4SxLhtSieCn8vbAn/edit?usp=sharing&ouid=116780384250069847335&rtpof=true&sd=true',
+   image: "https://iswaryacrackers.in/wp-content/uploads/2024/11/planexplore-3-1-300x300.jpg", 
+    link: 'https://docs.google.com/presentation/d/1PoQNLbEvLrbFo7Am4SxLhtSieCn8vbAn/edit?usp=sharing&ouid=116780384250069847335&rtpof=true&sd=truez',
   },
   {
     title: 'Autonomous Drone',
     description: 'Development of an autonomous drone system for emergency and rescue operations with AI-powered navigation.',
-    image: AutonomousDroneImage, 
+   image: "https://iswaryacrackers.in/wp-content/uploads/2024/11/autonomous-drone-300x300.jpg", 
     link: 'https://docs.google.com/document/d/10cvw-u-LMHUtQbGLA4w_AhZvqCoidCzk/edit?usp=sharing&ouid=116780384250069847335&rtpof=true&sd=true',
   },
   {
     title: 'Post to Amazon Listings',
     description: 'Application that converts social media content into optimized Amazon product listings using AI and automation.',
-    image: AmazonListingImage, 
+   image: "https://iswaryacrackers.in/wp-content/uploads/2024/11/amazon-listing-300x300.png", 
     link: 'https://github.com/Someshwari16/New_Listing',
   },
 ];
@@ -60,7 +56,7 @@ export function Projects() {
                 className="group relative overflow-hidden rounded-lg bg-white/5 backdrop-blur-lg hover:bg-white/10 transition-all"
               >
                 <div className="aspect-video overflow-hidden">
-                  <img
+                  <img  
                     src={project.image} 
                     alt={project.title}
                     className="w-full h-full object-cover transition-transform group-hover:scale-110"
