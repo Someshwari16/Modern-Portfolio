@@ -4,10 +4,10 @@ Welcome to my personal portfolio! This site showcases my journey as a developer,
 
 ***📂 Features***
 
-**Home: Introduction to who I am 👩‍💻**
-**About: My background and tech skills 🔧**
-**Projects: A showcase of my projects with detailed descriptions 💡**
-**Contact: How to get in touch 📞**
+** Home: Introduction to who I am 👩‍💻**
+**+About: My background and tech skills 🔧**
+**-Projects: A showcase of my projects with detailed descriptions 💡**
+**-Contact: How to get in touch 📞**
 
 ***🛠️ Technologies Used***
 
