@@ -1,32 +1,29 @@
-
 import { motion } from 'framer-motion';
 import { Rocket, ExternalLink } from 'lucide-react';
-
-
 
 const projects = [
   {
     title: 'Smart Moringa Cultivation',
     description: 'IoT-based intelligent system for moringa cultivation with real-time monitoring and automated care instructions.',
-   image: 'https://iswaryacrackers.in/wp-content/uploads/2024/11/Smart-Moringa-1-300x300.jpg', 
+    image: '/images/Smart-Moringa.png',  // Image in the public/images folder
     link: 'https://docs.google.com/presentation/d/1DgHDI9mfbn8b59vSlAWx49EqAjr-tIH4/edit?usp=sharing&ouid=116780384250069847335&rtpof=true&sd=true',
   },
   {
     title: 'Planexplore',
     description: 'Digital platform connecting tourists with local guides, enhancing travel experiences through personalized itineraries.',
-   image: "https://iswaryacrackers.in/wp-content/uploads/2024/11/planexplore-3-1-300x300.jpg", 
+    image: '/images/planexplore.png',  // Image in the public/images folder
     link: 'https://docs.google.com/presentation/d/1PoQNLbEvLrbFo7Am4SxLhtSieCn8vbAn/edit?usp=sharing&ouid=116780384250069847335&rtpof=true&sd=truez',
   },
   {
     title: 'Autonomous Drone',
     description: 'Development of an autonomous drone system for emergency and rescue operations with AI-powered navigation.',
-   image: "https://iswaryacrackers.in/wp-content/uploads/2024/11/autonomous-drone-300x300.jpg", 
+    image: '/images/autonomous-drone.png',  // Image in the public/images folder
     link: 'https://docs.google.com/document/d/10cvw-u-LMHUtQbGLA4w_AhZvqCoidCzk/edit?usp=sharing&ouid=116780384250069847335&rtpof=true&sd=true',
   },
   {
     title: 'Post to Amazon Listings',
     description: 'Application that converts social media content into optimized Amazon product listings using AI and automation.',
-   image: "https://iswaryacrackers.in/wp-content/uploads/2024/11/amazon-listing-300x300.png", 
+    image: '/images/amazon-listing.png',  // Image in the public/images folder
     link: 'https://github.com/Someshwari16/New_Listing',
   },
 ];
