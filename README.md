@@ -25,3 +25,7 @@ Welcome to my personal portfolio! This site showcases my journey as a developer,
 **🌍 Live Demo**
 
 Check out my portfolio live: [Someshwari Portolio](https://someshwari-portfolio.netlify.app/)
+
+
+![Alt text](https://drive.google.com/uc?export=download&id=1U5axZVDl-86ymFXSmBF6zL8WsNt1o4Xi)
+
