@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ChevronDown, Atom, Database, FileCode, Braces, Globe, Laptop } from 'lucide-react';
 
-// Import the image
+
 import p0Image from './images/p0.png';
 
 const techIcons = [
